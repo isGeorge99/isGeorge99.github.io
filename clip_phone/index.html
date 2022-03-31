@@ -1,41 +1,125 @@
-<html lang="en">
-          <head>
-            <meta charset="utf-8">
-          
-            <title>Html Generated</title>
-            <meta name="description" content="Figma htmlGenerator">
-            <meta name="author" content="htmlGenerator">
-            <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="./css/main.css" rel="stylesheet"/>
+    <title>clip home</title></head>
+    <script src="../jquery.min.js"></script>
+    <script type="text/javascript">
 
-            <link rel="stylesheet" href="styles.css">
-            
-            <style>
-              /*
-                Figma Background for illustrative/preview purposes only.
-                You can remove this style tag with no consequence
-              */
-              body {background: #E5E5E5; }
-            </style>
-          
-          </head>
-          
-          <body>
-            <div class=e66_2558><div  class="e67_46"></div><span  class="e67_52">TSS</span><span  class="e67_53">High Security：
-Private keys split and distributed to multiple parties  for utmost security.  
-The signing process never reconstitutes the key in a single instance.
-Fast Signing：
-More efficient than Multisig because TSS has only 1 signature instead of n signatures.
-Refreshability：
-In certain cases, the private keys can be retrieved by resharing the private key and invalidating the previous one.</span><div  class="e67_16"></div><div  class="e66_2559"></div><div class=e66_2563><div  class="e66_2564"></div><span  class="e66_2565">Coming Soon</span></div><span  class="e66_2572">Clip protocol is an integrated 
-Defi infrastructure platform. </span><div  class="e67_7"></div><span  class="e66_2598">WHO WE ARE</span><span  class="e66_2599">CLIP is a revolutionary DeFi protocol that focuses on safety, usability and transparancy for defi users.  The protocol's API offers users the ability to access the top protocols across multiple defi chains through a single interface.  Additionally, the plaform provides security checks and data transparency that enables users a much better experience than other platforms.  Finally, Hunters on the platform spot and promote the best investment opportunities which then allow users to achieve rapid returns and excellent profitability.
-</span><span  class="e66_2600">HOW WE MAKE IT HAPPEN</span><div  class="e66_2601"></div><span  class="e66_2602">Through the introduction of third-party security companies and the whitelist audit system of the target, a real-time audit is carried out to ensure the safety of the target.</span><span  class="e66_2603">Safety</span><div class=e66_2604><div  class="e66_2605"></div><div class=e66_2606><span  class="e66_2607">Multisig</span></div><span  class="e66_2608">Ensure that user funds are in their hands using threshold signature technology, multi-signature mechanism, sharing private keys without the need to entrust funds with the platform or other third parties.</span></div><div class=e66_2609><div  class="e66_2610"></div><span  class="e66_2611">Cross-chain bridge: users can realize the operation of various DeFi projects on a variety of different public chains through a wallet account.</span><span  class="e66_2612">Cross-chain</span></div><div class=e66_2613><div  class="e66_2614"></div><div class=e66_2615><span  class="e66_2616">Efficient</span></div><span  class="e66_2617">Automated adaptation of different public chains: the first time to grasp the head mine information.</span></div><div class=e66_2618><div  class="e66_2619"></div><span  class="e66_2620">Use of data tracking, comparing and analyzing all mining pools in the whitelist to form an effective analysis report.</span><span  class="e66_2621">Analysis</span></div><div class=e66_2622><div  class="e66_2623"></div><div class=e66_2624><span  class="e66_2625">Web3.0</span></div><span  class="e66_2626">Implementation of the Web 3.0 system: DeFi intermediate key platform, summarizing data, more effective analysis, and generating high-value information for the DeFi ecosystem of all public chains.</span></div><span  class="e66_2627">TECHNOLOGY ARCHITECTURE</span><div class=e66_2628><span  class="e66_2630">Integrates first with EVM chains.
-Automatically links to target Defi protocols.
-Automatically updates the Farm APIs on target protocols.
-Updates the contract and returns on the site.</span><span  class="e66_2631">CLIP API</span></div><div class=e66_2636><div class=e66_2637><span  class="e66_2639">Only work with DeFi protocols that have passed security audits.
-Set up liquidation rules.
-Clear hunter margin ratio.
-Sophisticated Investor investment model.</span><span  class="e66_2640">Risk control </span></div></div><div class=e66_2641><span  class="e66_2643">Loans&Collateral</span><span  class="e66_2644">CLIP Vault for lending and staking.
-Match Assets and Funds.
-Leverage.</span></div><div class=e66_2645><span  class="e66_2646">KEEP IN TOUCH</span><span  class="e66_2647">Feel free to contact us for any project idea or collaboration</span><span  class="e66_2648">hello@clipprotocol.com</span></div><div  class="e66_2667"></div><div  class="e66_2668"></div><div  class="e66_2669"></div><div  class="e66_2670"></div><div  class="e66_2671"></div><div  class="e66_2672"></div><div  class="e66_2673"></div><div  class="e66_2674"></div><div  class="e66_2675"></div><div  class="e66_2676"></div><div  class="e66_2677"></div><div  class="e67_5"></div><div  class="e67_9"></div><div  class="e67_11"></div><div  class="e67_12"></div><div  class="e67_14"></div><div  class="e67_45"></div><div  class="e67_44"></div><div  class="e67_48"></div></div>
-          </body>
-          </html>
+        $(document).ready(function(){
+            resizeDiv();
+        });
+        window.onresize = function() {
+            resizeDiv();
+        };
+        var resizeDiv = function(){
+            var width = $(window).width();
+            var height = $(window).height();
+            var scaleX = width/1440;
+
+            var scaleY = scaleX;
+
+            var scaleFunc = "scale("+scaleX+","+scaleY+")";
+
+            $('body').css({
+                "transform":scaleFunc,
+                "transform-origin":"left top",
+
+                "-ms-transform":scaleFunc,     /* IE 9 */
+                "-ms-transform-origin":"left top",
+
+                "-moz-transform":scaleFunc,     /* Firefox */
+                "-moz-transform-origin":"left top",
+
+                "-webkit-transform":scaleFunc, /* Safari & Chrome */
+                "-webkit-transform-origin":"left top",
+
+                "-o-transform":scaleFunc,     /* Opera */
+                "-o-transform-origin":"left top",
+            });
+
+            $('body').show();
+        };
+    </script>
+<body>
+<div class="v66_2558">
+    <div class="v87_97"></div>
+    <div class="v87_98"></div>
+    <div class="v87_94"></div>
+    <div class="v67_46"></div>
+    <span class="v67_52">TSS</span>
+    <div class="v66_2559"></div>
+    <div class="v66_2563">
+        <div class="v66_2564"></div>
+        <span class="v66_2565">Coming Soon</span></div>
+    <span class="v66_2572">Clip protocol is an integrated
+Defi infrastructure platform. </span>
+    <div class="v67_7"></div>
+    <span class="v66_2598">WHO WE ARE</span><span class="v66_2599">CLIP is a revolutionary DeFi protocol that focuses on safety, usability and transparancy for defi users.  The protocol's API offers users the ability to access the top protocols across multiple defi chains through a single interface.  Additionally, the plaform provides security checks and data transparency that enables users a much better experience than other platforms.  Finally, Hunters on the platform spot and promote the best investment opportunities which then allow users to achieve rapid returns and excellent profitability.
+</span><span class="v66_2600">HOW WE MAKE IT HAPPEN</span>
+    <div class="v66_2623"></div>
+    <div class="v66_2619"></div>
+    <div class="v66_2614"></div>
+    <div class="v66_2610"></div>
+    <div class="v66_2605"></div>
+    <div class="v66_2601"></div>
+    <span class="v66_2602">Through the introduction of third-party security companies and the whitelist audit system of the target, a real-time audit is carried out to ensure the safety of the target.</span><span
+        class="v66_2603">Safety</span>
+    <div class="v66_2604">
+        <div class="v66_2606"><span class="v66_2607">Multisig</span></div>
+        <span class="v66_2608">Ensure that user funds are in their hands using threshold signature technology, multi-signature mechanism, sharing private keys without the need to entrust funds with the platform or other third parties.</span>
+    </div>
+    <div class="v66_2609"><span class="v66_2611">Cross-chain bridge: users can realize the operation of various DeFi projects on a variety of different public chains through a wallet account.</span><span
+            class="v66_2612">Cross-chain</span></div>
+    <div class="v66_2613"><span class="v66_2616">Efficient</span><span class="v66_2617">Automated adaptation of different public chains: the first time to grasp the head mine information.
+</span></div>
+    <div class="v66_2618"><span class="v66_2620">Use of data tracking, comparing and analyzing all mining pools in the whitelist to form an effective analysis report.</span><span
+            class="v66_2621">Analysis</span></div>
+    <div class="v66_2622">
+        <div class="v66_2624"><span class="v66_2625">Web3.0</span></div>
+        <span class="v66_2626">Implementation of the Web 3.0 system: DeFi intermediate key platform, summarizing data, more effective analysis, and generating high-value information for the DeFi ecosystem of all public chains.
+</span></div>
+    <span class="v66_2627">TECHNOLOGY ARCHITECTURE</span>
+    <div class="v66_2628"><span class="v66_2630">Integrates first with EVM chains.<br>
+Automatically links to target Defi protocols.<br>
+Automatically updates the Farm APIs on target protocols.<br>
+Updates the contract and returns on the site.
+</span><span class="v66_2631">CLIP API</span></div>
+    <div class="v66_2636">
+        <div class="v66_2637"><span class="v66_2639">Only work with DeFi protocols that have passed security audits.<br>
+Set up liquidation rules.<br>
+Clear hunter margin ratio.<br>
+Sophisticated Investor investment model.
+</span><span class="v66_2640">Risk control </span></div>
+    </div>
+    <div class="v66_2641"><span class="v66_2643">Loans&Collateral</span><span class="v66_2644">CLIP Vault for lending and staking.<br>
+Match Assets and Funds.<br>
+Leverage.</span></div>
+    <div class="v66_2645"><span class="v66_2646">KEEP IN TOUCH</span><span class="v66_2647">Feel free to contact us for any project idea or collaboration</span><span
+            class="v66_2648">hello@clipprotocol.com</span></div>
+    <div class="v66_2667"></div>
+    <div class="v66_2668"></div>
+    <div class="v66_2669"></div>
+    <div class="v66_2670"></div>
+    <div class="v66_2671"></div>
+    <div class="v66_2672"></div>
+    <div class="v66_2673"></div>
+    <div class="v66_2674"></div>
+    <div class="v66_2675"></div>
+    <div class="v66_2676"></div>
+    <div class="v66_2677"></div>
+    <div class="v67_5"></div>
+    <div class="v67_9"></div>
+    <div class="v67_11"></div>
+    <div class="v67_12"></div>
+    <div class="v67_14"></div>
+    <div class="v67_45"></div>
+    <div class="v67_44"></div>
+    <div class="v67_48"></div>
+    <span class="v87_87">In certain cases, the private keys can be retrieved by resharing the private key and invalidating the previous one.</span><span
+        class="v87_88">Refreshability:</span><span class="v87_89">More efficient than Multisig because TSS has only 1 signature instead of n signatures.
+</span><span class="v87_90">Fast Signing:</span><span class="v87_91">Private keys split and distributed to multiple parties  for utmost security. <br>
+The signing process never reconstitutes the key in a single instance.</span><span class="v87_92">High Security:</span>
+</div>
+</body>
+</html>
