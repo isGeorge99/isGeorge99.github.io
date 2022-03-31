@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body{
-  width: 1440px;
+  width: 768px;
 
   margin: 0px;
   padding: 0px;
@@ -152,23 +152,49 @@ span{
   width: 97px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 11px;
-  left: 32px;
-  font-family: Roboto_SemiBold;
+  top: 10px;
+  left: 42px;
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
   font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #FFFFFF;
   opacity: 1;
   text-align: left;
 }
 .v66_2572 {
   width: 612px;
+  height: 59px;
   color: rgba(89,103,176,1);
   position: absolute;
   top: 629px;
   left: 78px;
-  font-family: Roboto_Black;
+  font-family: Roboto;
+  font-weight: 900;
   font-size: 46px;
   opacity: 1;
   text-align: center;
+}
+.v66_2572_2 {
+  position: absolute;
+  width: 612px;
+  height: 40px;
+  left: 78px;
+  top: 697px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #5967B0;
 }
 .v67_7 {
   width: 240px;
@@ -498,8 +524,7 @@ span{
 }
 .v66_2624 {
   width: 109px;
-  height: 38px;
-  background: url("../images/v66_2624.png");
+  height: 48px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -564,7 +589,7 @@ span{
   font-family: Roboto_Regular;
   font-size: 20px;
   opacity: 0.800000011920929;
-  text-align: justified;
+  text-align: justify;
 }
 .v66_2631 {
   width: 128px;
@@ -580,7 +605,6 @@ span{
 .v66_2636 {
   width: 492px;
   height: 229px;
-  background: url("../images/v66_2636.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -593,7 +617,6 @@ span{
 .v66_2637 {
   width: 492px;
   height: 229px;
-  background: url("../images/v66_2637.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -612,7 +635,7 @@ span{
   font-family: Roboto_Regular;
   font-size: 20px;
   opacity: 0.800000011920929;
-  text-align: justified;
+  text-align: justify;
 }
 .v66_2640 {
   width: 171px;
