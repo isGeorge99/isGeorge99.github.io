@@ -199,14 +199,50 @@ span{
 .v67_7 {
   width: 240px;
   height: 47px;
-  background: url("../images/v67_7.png");
+  opacity: 1;
+  position: absolute;
+  top: 756px;
+  left: 266px;
+  overflow: hidden;
+}
+
+.icon_1 {
+  width: 47px;
+  height: 47px;
+  background: url("../images/icon1.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
   top: 756px;
-  left: 266px;
+  left: 0px;
+  overflow: hidden;
+}
+.icon_2 {
+  width: 47px;
+  height: 47px;
+  background: url("../images/icon2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 756px;
+  left: 97px;
+  overflow: hidden;
+}
+.icon_3 {
+  width: 47px;
+  height: 47px;
+  background: url("../images/icon3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 756px;
+  left: 194px;
   overflow: hidden;
 }
 .v66_2598 {
@@ -914,10 +950,7 @@ span{
 .v67_12 {
   width: 159px;
   height: 31px;
-  background: url("../images/v67_12.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+
   opacity: 1;
   position: absolute;
   top: 6765px;

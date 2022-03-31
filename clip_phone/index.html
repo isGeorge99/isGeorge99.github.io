@@ -54,8 +54,8 @@
         <span class="v66_2565">Coming Soon</span></div>
     <span class="v66_2572">Clip Protocol</span>
     <span class="v66_2572_2">integrated Defi infrastructure platform</span>
-    <div class="v67_7"></div>
-    <span class="v66_2598">WHO WE ARE</span><span class="v66_2599">CLIP is a revolutionary DeFi protocol that focuses on safety, usability and transparancy for defi users.  The protocol's API offers users the ability to access the top protocols across multiple defi chains through a single interface.  Additionally, the plaform provides security checks and data transparency that enables users a much better experience than other platforms.  Finally, Hunters on the platform spot and promote the best investment opportunities which then allow users to achieve rapid returns and excellent profitability.
+
+    <span class="v66_2598" id="who_content">WHO WE ARE</span><span class="v66_2599">CLIP is a revolutionary DeFi protocol that focuses on safety, usability and transparancy for defi users.  The protocol's API offers users the ability to access the top protocols across multiple defi chains through a single interface.  Additionally, the plaform provides security checks and data transparency that enables users a much better experience than other platforms.  Finally, Hunters on the platform spot and promote the best investment opportunities which then allow users to achieve rapid returns and excellent profitability.
 </span><span class="v66_2600">HOW WE MAKE IT HAPPEN</span>
     <div class="v66_2623"></div>
     <div class="v66_2619"></div>
@@ -96,7 +96,7 @@ Sophisticated Investor investment model.
 Match Assets and Funds.<br>
 Leverage.</span></div>
     <div class="v66_2645"><span class="v66_2646">KEEP IN TOUCH</span><span class="v66_2647">Feel free to contact us for any project idea or collaboration</span><span
-            class="v66_2648">hello@clipprotocol.com</span></div>
+            class="v66_2648"><a href="mailto:hello@clipprotocol.com?subject=test&cc=&subject=hello&body=">hello@clipprotocol.com</a></span></div>
     <div class="v66_2667"></div>
     <div class="v66_2668"></div>
     <div class="v66_2669"></div>
@@ -109,9 +109,20 @@ Leverage.</span></div>
     <div class="v66_2676"></div>
     <div class="v66_2677"></div>
     <div class="v67_5"></div>
-    <div class="v67_9"></div>
-    <div class="v67_11"></div>
-    <div class="v67_12"></div>
+    <div class="v67_5"></div>
+    <div class="v67_7">
+        <img id="icon_1" src="images/icon1.png" style="height:100%;cursor:pointer;"/>
+        <img id="icon_2" src="images/icon2.png" style="margin-left:30px;height:100%;cursor:pointer;"/>
+        <img id="icon_3" src="images/icon3.png" style="margin-left:30px;height:100%;cursor:pointer;"/>
+    </div>
+    <div class="v67_9" id = "btn_who" style="cursor:pointer;"></div>
+    <div class="v67_11" id = "btn_more" style="cursor:pointer;"></div>
+    <div class="v67_12">
+        <img id="icon_b1" src="images/icon1.png" style="height:100%;cursor:pointer;"/>
+        <img id="icon_b2" src="images/icon2.png" style="margin-left:20px;left:100px;height:100%;cursor:pointer;"/>
+        <img id="icon_b3" src="images/icon3.png" style="margin-left:20px;height:100%;cursor:pointer;"/>
+
+    </div>
     <div class="v67_14"></div>
     <div class="v67_45"></div>
     <div class="v67_44"></div>
@@ -121,5 +132,30 @@ Leverage.</span></div>
 </span><span class="v87_90">Fast Signing:</span><span class="v87_91">Private keys split and distributed to multiple parties  for utmost security. <br>
 The signing process never reconstitutes the key in a single instance.</span><span class="v87_92">High Security:</span>
 </div>
+<script type="text/javascript">
+
+    $("#btn_more").click(function(){
+        window.scrollTo(0, document.documentElement.scrollHeight-document.documentElement.clientHeight);
+    });
+    $("#btn_who").click(function(){
+        window.scrollTo(0, $("#who_content").offset().top);
+    });
+
+    $("#icon_1,#icon_b1").click(function(){
+        window.open('https://twitter.com/ClipProtocol')
+
+    });
+    $("#icon_2,#icon_b2").click(function(){
+        window.open('https://discord.gg/RTtrGmyrHy')
+
+    });
+
+    $("#icon_3,#icon_b3").click(function(){
+        window.open('https://medium.com/@ClipProtocol')
+
+    });
+
+
+</script>
 </body>
 </html>

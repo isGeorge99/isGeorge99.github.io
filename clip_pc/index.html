@@ -3,6 +3,7 @@
 <head>
     <link href="./css/main.css" rel="stylesheet"/>
     <title>clip home</title></head>
+    <script src="../bootstrap.min.css"></script>
     <script src="../jquery.min.js"></script>
     <script type="text/javascript">
 
@@ -12,6 +13,7 @@
         window.onresize = function() {
             resizeDiv();
         };
+
         var resizeDiv = function(){
             var width = $(window).width();
             var height = $(window).height();
@@ -62,23 +64,27 @@
     <div class="v66_2551"></div>
     <div class="v66_2556"></div>
     <div class="v67_20"></div>
-    <div class="v67_24"></div>
-    <div class="v67_22"></div>
-    <div class="v67_21"></div>
+    <div class="icon_1" style="cursor:pointer;"></div>
+    <div class="icon_2" style="cursor:pointer;"></div>
+    <div class="icon_3" style="cursor:pointer;"></div>
+    <div class="v67_22" style="cursor:pointer;" id="btn_more" ></div>
+    <div class="v67_21" style="cursor:pointer;" id="btn_who"></div>
     <div class="v73_62"></div>
     <div class="v74_68"></div>
     <div class="v67_35"></div>
     <div class="v67_42"></div>
     <div class="v67_41"></div>
     <div class="v67_34"></div>
-    <span class="v66_2473">WHO WE ARE</span><span class="v66_2474">Through the introduction of third-party security companies and the whitelist audit system of the target, a real-time audit is carried out to ensure the safety of the target.</span>
+    <span class="v66_2473" id="who_content">WHO WE ARE</span><span class="v66_2474">Through the introduction of third-party security companies and the whitelist audit system of the target, a real-time audit is carried out to ensure the safety of the target.</span>
     <div class="v66_2475"><span class="v66_2476">Multisig</span></div>
     <span class="v66_2477">Ensure that user funds are in their hands using threshold signature technology, multi-signature mechanism, sharing private keys without the need to entrust funds with the platform or other third parties.</span><span
         class="v66_2478">TECHNOLOGY ARCHITECTURE</span><span class="v66_2479">HOW WE MAKE IT HAPPEN</span><span
         class="v66_2480">Safety</span>
-    <div class="v66_2481"><span class="v66_2482">KEEP IN TOUCH</span><span class="v66_2483">Feel free to contact us for any project idea or collaboration</span><span
-            class="v66_2484">hello@clipprotocol.com</span>
-        <div class="v67_26"></div>
+    <div class="v66_2481" id="more"><span class="v66_2482">KEEP IN TOUCH</span><span class="v66_2483">Feel free to contact us for any project idea or collaboration</span><span
+            class="v66_2484"><a href="mailto:hello@clipprotocol.com?subject=test&cc=&subject=hello&body=">hello@clipprotocol.com</a></span>
+        <div class="icon_b1" style="cursor:pointer;"></div>
+        <div class="icon_b2" style="cursor:pointer;"></div>
+        <div class="icon_b3" style="cursor:pointer;"></div>
     </div>
     <span class="v66_2521">Cross-chain</span><span class="v66_2522">Cross-chain bridge: users can realize the operation of various DeFi projects on a variety of different public chains through a wallet account.</span>
     <div class="v66_2549"></div>
@@ -104,5 +110,29 @@ Match Assets and Funds.<br>
 Leverage.</span><span class="v66_2542">CLIP is a revolutionary DeFi protocol that focuses on safety, usability and transparancy for defi users. The protocol's API offers users the ability to access the top protocols across multiple defi chains through a single interface. Additionally, the plaform provides security checks and data transparency that enables users a much better experience than other platforms.  Finally, Hunters on the platform spot and promote the best investment opportunities which then allow users to achieve rapid returns and excellent profitability.
 </span><span class="v73_63">Clip Protocol</span><span class="v80_78">integrated Defi infrastructure platform</span>
 </div>
+<script type="text/javascript">
+
+    $("#btn_more").click(function(){
+        window.scrollTo(0, document.documentElement.scrollHeight-document.documentElement.clientHeight);
+    });
+    $("#btn_who").click(function(){
+        window.scrollTo(0, $("#who_content").offset().top);
+    });
+
+    $(".icon_1,.icon_b1").click(function(){
+        window.open('https://twitter.com/ClipProtocol')
+
+    });
+    $(".icon_2,.icon_b2").click(function(){
+        window.open('https://discord.gg/RTtrGmyrHy')
+
+    });
+    $("#icon_3,#icon_b3").click(function(){
+        window.open('https://medium.com/@ClipProtocol')
+
+    });
+
+
+</script>
 </body>
 </html>

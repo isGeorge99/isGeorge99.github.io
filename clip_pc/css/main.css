@@ -329,6 +329,45 @@ span{
   left: 119px;
   overflow: hidden;
 }
+.icon_1 {
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 447px;
+  left: 119px;
+  overflow: hidden;
+}
+.icon_2 {
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 447px;
+  left: 180px;
+  overflow: hidden;
+}
+.icon_3 {
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 447px;
+  left: 241px;
+  overflow: hidden;
+}
 .v67_22 {
   width: 160px;
   height: 54px;
@@ -527,6 +566,9 @@ span{
   text-align: left;
 }
 .v66_2481 {
+  -moz-appearance:button;
+  -webkit-appearance:button;
+  appearance: auto;
   width: 661px;
   height: 192px;
   background: url("../images/v66_2481.png");
@@ -583,6 +625,45 @@ span{
   position: absolute;
   top: 162px;
   left: 247px;
+  overflow: hidden;
+}
+.icon_b1 {
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 162px;
+  left: 247px;
+  overflow: hidden;
+}
+.icon_b2 {
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 162px;
+  left: 297px;
+  overflow: hidden;
+}
+.icon_b3 {
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 162px;
+  left: 347px;
   overflow: hidden;
 }
 .v66_2521 {
